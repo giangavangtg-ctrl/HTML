@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thực hành CSS cơ bản</title>
+    <style>
+        /* Bước 2: Đổi màu và font chữ cho thẻ h1 */
+        h1 {
+            color: blue;
+            font-family: Tahoma, sans-serif;
+            font-size: 200%;
+        }
+
+        /* Bước 2, 3, 4: CSS cho thẻ p (Đổi font, thêm viền, thêm khoảng cách) */
+        p {
+            color: red;
+            font-family: Arial, sans-serif;
+            font-size: 120%;
+            border: 1px solid grey; /* Bước 3 */
+            padding: 10px;          /* Bước 4 */
+        }
+        
+        /* Bước 5: Đổi CSS riêng cho phần tử có id là element1 */
+        #element1 {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Đây là đề mục</h1>
+
+    <p>Đây là đoạn văn bản.</p>
+    <p>Đây là đoạn văn bản.</p>
+    <p>Đây là đoạn văn bản.</p>
+    
+    <!-- Đoạn văn bản có gắn ID để nhận CSS màu xanh -->
+    <p id="element1">Đoạn văn bản có thuộc tính id</p>
+
+</body>
+</html>
